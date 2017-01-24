@@ -1,0 +1,171 @@
+/*Name: Chao Zhi Peng
+	Adm No.: 1626360
+	Class: 1A/23
+	Module: WCD*/
+
+/*body styling*/
+
+body {
+	background-image: url('img/background.png');
+	color: #5b5b5b;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+
+.body {
+	clear: both;
+	margin: 0 auto;
+	width: 70%;
+}
+
+/*general styling*/
+
+h2 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: 0.8em;
+}
+
+a {
+	outline: 0;
+	}
+
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #fbfbfb;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #840000;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*header styling*/
+
+.header nav {
+	background: #424242;
+	font-size: 16px;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid black;
+}
+
+.header nav ul {
+	list-style: none;
+	margin: 0 auto;
+  padding-left: 15%;
+}
+
+.header nav ul li {
+	float: left;
+	display: inline;
+}
+
+.header nav a:link, .header nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.header nav a:hover, .header nav a:active,
+.header nav .active a:link, .header nav .active a:visited {
+	background: #840000;
+	color: #fff;
+	text-shadow: none !important;
+}
+
+.header img {
+	width: 30%;
+	height: auto;
+	margin: 3% 0;
+}
+
+/*content styling*/
+
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+}
+
+.topcontent {
+	/*background-color: #FFF;*/
+	padding: 3% 5%;
+	margin-bottom: 3%;
+}
+
+.subHeader {
+	font-size: 24px;
+	color: #e7e7e7;
+}
+
+.content {
+	width: 68%;
+	float: left;
+	color: #fff;
+}
+
+.quote {
+	font-size: 30px;
+	text-align: center;
+	margin: 35% auto 0;
+}
+
+.quote2 {
+	text-align: right;
+	font-size: 16px;
+}
+
+/*sidebar styling*/
+
+.sidebar {
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	/*background-color: #FFF;*/
+	margin-bottom: 2%;
+}
+
+.sidebar figure {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar img {
+  max-width: 150%;
+  max-height: 200%;
+}
+
+/*footer styling*/
+
+.footer {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+	background-color: #424242;
+	color: #FFF;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid black;
+}
+
+.footer p {
+	width: 90%;
+	margin: 2% auto;
+}
